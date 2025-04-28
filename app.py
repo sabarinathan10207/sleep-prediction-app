@@ -13,7 +13,7 @@ st.write("This app predicts how many hours you will sleep based on your daily ac
 # Load Data
 @st.cache_data
 def load_data():
-    data = pd.read_csv('sleep_data.csv')  # <-- Make sure your CSV is named 'sleep_data.csv'
+    data = pd.read_csv('sleep_dataset.csv')  # <-- Make sure your CSV is named 'sleep_data.csv'
     return data
 
 data = load_data()
