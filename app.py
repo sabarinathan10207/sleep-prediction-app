@@ -6,26 +6,6 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
-# Set page background color
-page_bg_img = """
-<style>
-[data-testid="stAppViewContainer"] {
-    background-color: #E6F7FF;
-}
-</style>
-"""
-st.markdown(page_bg_img, unsafe_allow_html=True)
-
-with st.sidebar:
-    st.title("🛌 Sleep Predictor App")
-    st.write("Predicts how many hours you will sleep based on your daily activities.")
-    st.markdown("[🌟 View Source Code](https://github.com/sabarinathan10207/sleep-prediction-app)")
-
-
-
-
-
-
 
 
 # Title
