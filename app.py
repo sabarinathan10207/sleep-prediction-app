@@ -47,4 +47,4 @@ if st.button("Predict Sleep Hours"):
     st.success(f"😴 You are likely to sleep for **{predicted_sleep:.2f} hours** tonight!")
 
 # Footer
-st.write("Made with ❤️ by Sabari")
+st.write("Made with ❤️ by SABARINATHAN AI DATA SPECIALIST | MACHINE LEARNING PRACTITIONER")
