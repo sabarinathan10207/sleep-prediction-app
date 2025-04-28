@@ -6,6 +6,31 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
+# Set page background color
+page_bg_img = """
+<style>
+[data-testid="stAppViewContainer"] {
+    background-color: #E6F7FF;
+}
+</style>
+"""
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
+with st.sidebar:
+    st.title("🛌 Sleep Predictor App")
+    st.write("Predicts how many hours you will sleep based on your daily activities.")
+    st.markdown("[🌟 View Source Code](https://github.com/sabarinathan10207/sleep-prediction-app)")
+
+with st.spinner('Predicting your sleep hours...'):
+    predicted_sleep = model.predict(input_data)[0]
+
+st.success(f"🌙 Based on your inputs, you are likely to sleep for **{predicted_sleep:.2f} hours**.")
+
+st.markdown("---")
+st.markdown("😴 *'Sleep is the best meditation.'* - Dalai Lama")
+
+
+
 # Title
 st.title("🛌 Sleep Prediction App")
 st.write("This app predicts how many hours you will sleep based on your daily activities.")
