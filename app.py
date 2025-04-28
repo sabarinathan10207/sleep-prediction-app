@@ -17,8 +17,9 @@ model = RandomForestRegressor(random_state=42)
 model.fit(X_scaled, y)
 
 # Streamlit UI
-st.title('Sleep Hours Prediction')
-st.write("Enter your daily data to predict your sleep hours.")
+st.title('Sleep Prediction App')
+#st.write("Enter your daily data to predict your sleep hours.")
+st.write("Welcome to the Sleep Prediction app!")
 
 # Input fields for new user data
 hours_worked = st.number_input('Hours Worked', min_value=0, max_value=24)
