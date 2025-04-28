@@ -24,6 +24,11 @@ Built using **Python**, **Streamlit**, and **Scikit-Learn**.
 - Git & GitHub
 
 ---
+## 🖥️ Live Demo
+
+👉 [Click here to View the Live App]
+
+https://sleep-prediction-app-epupjersjwdwp6j53fawoy.streamlit.app/
 
 ## 🛠 How to Run Locally
 
