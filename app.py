@@ -21,13 +21,10 @@ with st.sidebar:
     st.write("Predicts how many hours you will sleep based on your daily activities.")
     st.markdown("[🌟 View Source Code](https://github.com/sabarinathan10207/sleep-prediction-app)")
 
-with st.spinner('Predicting your sleep hours...'):
-    predicted_sleep = model.predict(input_data)[0]
 
-st.success(f"🌙 Based on your inputs, you are likely to sleep for **{predicted_sleep:.2f} hours**.")
 
-st.markdown("---")
-st.markdown("😴 *'Sleep is the best meditation.'* - Dalai Lama")
+
+
 
 
 
